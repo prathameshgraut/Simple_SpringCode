@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  
+  <!-- Create Bean Object In Class -->
+  <bean id="stdId" class="Spring_Demo.Student">
+  <property name="Id" value="10"/>
+  <property name="Name" value="Parth"/>
+  <property name="Mail" value="prathamesh@gamil.com"/>
+  </bean>
+  
+  <bean id="stdId2" class="Spring_Demo.Student">
+  <property name="Id" value="11"/>
+  <property name="Name" value="Aniket"/>
+  <property name="Mail" value="aniket07@gamil.com"/>
+  </bean>
+  
+  <bean id="Emp" class="Spring_Demo.Employee">
+  <property name="Eid" value="162"/>
+  <property name="Name" value="Mr.Nikhil Patil"/>
+  <property name="Position" value="Software Developer"/>
+   <property name="Salary" value="75000"/>
+  </bean>
+
+</beans>
